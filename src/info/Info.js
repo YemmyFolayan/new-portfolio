@@ -1,4 +1,4 @@
-import self from "../img/self.png"
+import self from "../img/self.jpg"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -25,7 +25,7 @@ of what each of the values mean.
 export const info = {
     firstName: "Michael",
     lastName: "Folayan",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "FM", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -45,7 +45,7 @@ export const info = {
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "michaelfolayan@outlook.com"
         }
     ],
     socials: [
