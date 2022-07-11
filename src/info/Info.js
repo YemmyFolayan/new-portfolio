@@ -23,25 +23,37 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "Michael",
-    lastName: "Folayan",
+    firstName: "Michael Folayan",
+    lastName: "",
     initials: "FM", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    position: "a Full Stack Engineer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'Website Development'
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
+            emoji: '📲',
+            text: 'Mobile Application Development'
+        },
+        {
+            emoji: "🚀",
+            text: "Web 3.0, web 4.0 and Web 5.0 Technologies Explorer"
+        },
+        {
+            emoji: "💰",
+            text: "Blockchain development"
+        },
+        {
+            emoji: "📸",
+            text: "Photography"
+        },
+        {
+            emoji: "🎌",
+            text: "Identity & Brand Design"
         },
         {
             emoji: "📧",
@@ -50,37 +62,48 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook'
+            link: "https://wa.me/2348103817187",
+            icon: 'fa fa-whatsapp'
         },
         {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram'
-        },
-        {
-            link: "https://github.com",
-            icon: "fa fa-github"
-        },
-        {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/folayan-yemi",
             icon: "fa fa-linkedin"
         },
         {
-            link: "https://twitter.com",
+            link: "https://github.com/yemmyFolayan",
+            icon: "fa fa-github"
+        },
+      
+        {
+            link: "https://twitter.com/softfolayanyemi",
             icon: "fa fa-twitter"
-        }
+        },
+
+        {
+            link: "https://www.youtube.com/channel/UCMcHO99n8_YxRnG1UguaDJw",
+            icon: "fa fa-youtube"
+        },
+        {
+            link: "https://www.instagram.com/folla_yemi/",
+            icon: 'fa fa-instagram'
+        },
+    
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Michael,📫 Passionate FullStack Software Engineer. ⚡ I have experience in understanding and analyzing the software engineering problems and implementing them. 🔭 My interests range from Technology to Entrepreneurship. I am a technology driven person with an immense interest in Software Engineering Problems and Designs.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma', 'Flutter', 'Typescript', 'nodejs'],
+            exposedTo: ['C#', 'python', 'adobe illustrator', 'rust', 'web socket', 'Microservices', 'Wordpress', 'C++', 'Java']
         }
     ,
     hobbies: [
+        {
+            label: 'Video Game',
+            emoji: '🎮'
+        },
         {
             label: 'reading',
             emoji: '📖'
