@@ -4,6 +4,9 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
+import mock7 from "../img/mock7.png"
+import mock8 from "../img/mock8.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -125,34 +128,55 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Financial Technology Application Built with Flutter.",
+            live: "https://wevesti.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/YemmyFolayan", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "[Intriobasket.com] Online Grocery Store with varieties of fresh Farm product Located in Abuja (FCT), Nigeria.",
+            live: "https://intriobasket.com/",
+            source: "https://github.com/YemmyFolayan",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "[wevesti.com] Vesti is a Fin-Tech Application that Automate Immigrants Payments (WES, IELTS, VISA, GRE, SEVIS, UK IHS).",
+            live: "https://app.wevesti.com/",
+            source: "https://github.com/YemmyFolayan",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "[Comserves.com] Comserve Technologies Inc. (CTI) is a dependable Engineering, Systems Integrations, consulting, and management solutions company. Located In Calgary, Canada.",
+            live: "https://comserves.com/",
+            source: "https://github.com/YemmyFolayan",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "[Tugapimage.com] Brand Photography Site for services like Birthday Photography, Wedding,Events & Products Photography.",
+            live: "http://www.tugapimage.com/",
+            source: "https://github.com/YemmyFolayan",
             image: mock5
+        },
+        {
+            title: "[Bangvibes.com] One of the Best Entertainment Site with several features such as music and videos streaming & E-Finance.",
+            live: "https://www.bangvibes.com/",
+            source: "https://github.com/YemmyFolayan",
+            image: mock6
+        },
+
+        {
+            title: "[GEO CAM] Geo-Tagging Camera PWA, It detect Land Area Location(With Longitude & Latitude) and Date",
+            live: "https://camshopifycomserve.netlify.app/",
+            source: "https://github.com/YemmyFolayan",
+            image: mock7
+        },
+
+        {
+            title: "[SoundMansion] Soundmansion is an online free music store just like Spotify,mp3paw and the likes.",
+            live: "https://www.bangvibes.com/",
+            source: "https://github.com/YemmyFolayan",
+            image: mock8
         }
+
     ]
 }
