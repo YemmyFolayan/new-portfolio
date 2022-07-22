@@ -25,13 +25,41 @@ export default function About() {
             </p>
             <p><span style={{color: info.baseColor}}>skills/tools <span
                 className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{color: info.baseColor}}> Proficient With</p>
+
+            <p style={{color: info.baseColor}}> DotNet</p>
             <ul className={Style.skills}>
-                {info.skills.proficientWith.map(proficiency => <li>{proficiency}</li>)}
+                {info.skills.dotNet.map(dotNets => <li>{dotNets}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Exposed To</p>
+
+            <p style={{color: info.baseColor}}> Frontend</p>
             <ul className={Style.skills}>
-                {info.skills.exposedTo.map(skill => <li>{skill}</li>)}
+                {info.skills.frontend.map(frontends => <li>{frontends}</li>)}
+            </ul>
+
+            <p style={{color: info.baseColor}}> Backend</p>
+            <ul className={Style.skills}>
+                {info.skills.backend.map(backends => <li>{backends}</li>)}
+            </ul>
+
+            <p style={{color: info.baseColor}}> Version Control</p>
+            <ul className={Style.skills}>
+                {info.skills.versionControl.map(versionControls => <li>{versionControls}</li>)}
+            </ul>
+
+            <p style={{color: info.baseColor}}> Database</p>
+            <ul className={Style.skills}>
+                {info.skills.database.map(databases => <li>{databases}</li>)}
+            </ul>
+
+            <p style={{color: info.baseColor}}> Cloud </p>
+            <ul className={Style.skills}>
+                {info.skills.cloud.map(clouds => <li>{clouds}</li>)}
+            </ul>
+
+          
+            <p style={{color: info.baseColor}}> Frameworks</p>
+            <ul className={Style.skills}>
+                {info.skills.frameworks.map(framework => <li>{framework}</li>)}
             </ul>
         </>;
     }

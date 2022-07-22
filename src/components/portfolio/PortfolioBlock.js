@@ -7,7 +7,7 @@ function PortfolioBlock(props) {
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'} margin={'30px'}>
          <Box component={'img'} src={image} alt={'mockup'}/>
-         <h6 style={{fontSize: '15px'}} gap={'0.5rem'}>{title}</h6>
+         <h6 style={{fontSize: '15px'}} gap={'0.7rem'}>{title}</h6>
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
               alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             <Box p={1} border={'2px solid black'} borderRadius={'25px'}>

@@ -112,11 +112,20 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Michael,📫 Passionate FullStack Software Engineer. ⚡ I have experience in understanding and analyzing the software engineering problems and implementing them. 🔭 My interests range from Technology to Entrepreneurship. I am a technology driven person with an immense interest in Software Engineering Problems and Designs.",
+    bio: "Hello! I'm Michael,📫 Passionate FullStack Software Engineer. ⚡ I have experience in understanding and analyzing the software engineering problems and implementing them. Excellent reputation for resolving problems and improving customer satisfaction. Dedicated professional with history of meeting company goals utilizing consistent and organized practices. Skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand.   🔭 My interests range from Technology to Entrepreneurship. I am a technology driven person with an immense interest in Software Engineering Problems and Designs.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma', 'Flutter', 'Typescript', 'nodejs'],
-            exposedTo: ['C#', 'python', 'adobe illustrator', 'rust', 'web socket', 'Microservices', 'Wordpress', 'C++', 'Java']
+            dotNet: ["C#", "ASP.NET MVC 5", "ASP.NET Web API 2", "ASPN.NET CORE", "T-SQL", "Entity", "Framework"],
+            frontend: ["HTML5", "CSS3", "Bootstrap", "jQuery", "Vue.js", "React.js"],
+            backend: ["Node.js", "Java", "Kotlin", "Express.js", "PHP", "Nest.js", "Typescript"],
+            versionControl: ["GitHub", "GitLab", "Bitbucket"],
+            database: ["MySQL", "MSSQL", "PostgreSQL", "MongoDB"],
+            cloud: ["Aws", "Azure", "cPanel", "Heroku", "Plesk", "GCP"],
+            frameworks: ["Spring Boot", "Laravel", "Slim", "CodeIgniter", "Lumen", "Phalcon"]
+
+
+           
+
         }
     ,
     hobbies: [
