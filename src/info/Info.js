@@ -61,9 +61,24 @@ export const info = {
         {
             emoji: "📧",
             text: "michaelfolayan@outlook.com"
-        }
+        },
+
+        {
+            emoji: "⬇️",
+            text: "Download My CV",
+            link: "https://drive.google.com/file/d/1PyopbwS5qARmkNkgwQPesDmu7bx63-xs/view?usp=sharing",
+            
+        },
+       
     ],
     socials: [
+
+        {
+          
+            link: "https://drive.google.com/file/d/1PyopbwS5qARmkNkgwQPesDmu7bx63-xs/view?usp=sharing",
+            icon: "fa fa-folder",
+
+        },
         {
             link: "https://wa.me/2348103817187",
             icon: 'fa fa-whatsapp'
@@ -90,7 +105,9 @@ export const info = {
             link: "https://www.instagram.com/folla_yemi/",
             icon: 'fa fa-instagram'
         },
+   
     
+        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
