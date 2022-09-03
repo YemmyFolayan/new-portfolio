@@ -7,6 +7,7 @@ import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.png"
+import mock9 from "../img/mock9.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -153,6 +154,14 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
+        {
+            title: "Swift Chain Blockchain (in Progress), Blockchain and Financial Technology Application Built with Latest and Secure Technology.",
+            live: "https://swiftchain.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/YemmyFolayan", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock9
+        },   
+
+
         {
             title: "Financial Technology Application Built with Flutter.",
             live: "https://wevesti.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
